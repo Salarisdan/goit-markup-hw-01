@@ -1,0 +1,339 @@
+
+
+
+:root{
+  --white: #FFFFFF;
+  --hard-white:#EEEEEE;
+  --blue: #2196F3;
+  --black: #212121;
+  --gray: #757575;
+  --hard-gray:#2F303A;
+  --light-gray:#F5F4FA;
+}
+
+
+html{
+  font-size: 15px;
+}
+
+
+
+body{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-family:'Roboto',sans-serif;
+  font-size:1rem;
+  
+
+
+
+background: var(--white);
+}
+
+
+
+
+
+*,
+*::before 
+*::after{box-sizing:border-box}
+
+/*Портфоліо*/
+
+li{
+  list-style-type: none;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+
+p{
+color: var(--gray);
+}
+
+button{
+  border: none;
+}
+
+.about_nav{
+  align-items: center;
+}
+
+.logo_link{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--black);
+}
+
+.logo-header{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--blue);
+}
+
+.about_studi{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: var(--black);
+}
+
+.about_portfolio{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--black);
+}
+
+.about_contact{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--black);
+}
+
+.about_mail{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: var(--gray);
+}
+
+.about_tell{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  
+  color: var(--gray);
+}
+
+.about_all{
+  display: flex;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+.about_web_site{
+  display: flex;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+.about_applications{
+  display: flex;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+.about_design{
+  display: flex;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+.about_marketing{
+  display: flex;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+
+.footer_container{
+position: absolute;
+width: 1600px;
+height: 252px;
+
+
+
+background:var(--hard-gray);
+}
+
+.footer_studio{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--white);
+}
+
+.logo_footer{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--blue);
+}
+
+.info_adres{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: var(--white);
+}
+
+.main_about{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.tell_about{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+
+/*Ховери*/
+
+.about_studi:hover{
+border-color: var(--black);
+color: var(--blue);
+transition: color .2s linear ;
+}
+
+.about_portfolio:hover{
+border-color: var(--black);
+color: var(--blue);
+transition: color .2s linear ;
+}
+
+.about_contact:hover{
+border-color: var(--black);
+color: var(--blue);
+transition: color .2s linear ;
+}
+
+.about_mail:hover{
+border-color: var(--gray);
+color: var(--blue);
+transition: color .2s linear ;
+}
+
+.about_tell:hover{
+border-color: var(--gray);
+color: var(--blue);
+transition: color .2s linear ;
+}
+
+.about_all:hover{
+  
+border-color: var(--black);
+background-color: var(--blue) ;
+color: var(--white);
+transition:background-color .2s linear, color .2s linear ;
+}
+.about_web_site:hover{
+  border-color: var(--black);
+background-color: var(--blue) ;
+color: var(--white);
+transition:background-color .2s linear, color .2s linear ;
+}
+.about_applications:hover{
+  border-color: var(--black);
+  background-color: var(--blue) ;
+  color: var(--white);
+  transition:background-color .2s linear, color .2s linear ;
+}
+.about_design:hover{
+  border-color: var(--black);
+  background-color: var(--blue) ;
+  color: var(--white);
+  transition:background-color .2s linear, color .2s linear ;
+}
+.about_marketing:hover{
+  border-color: var(--black);
+  background-color: var(--blue) ;
+  color: var(--white);
+  transition:background-color .2s linear, color .2s linear ;
+}
