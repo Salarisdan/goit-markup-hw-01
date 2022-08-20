@@ -1,0 +1,494 @@
+
+
+
+:root{
+  --white: #FFFFFF;
+  --hard-white:#EEEEEE;
+  --blue: #2196F3;
+  --black: #212121;
+  --gray: #757575;
+  --hard-gray:#2F303A;
+  --light-gray:#F5F4FA;
+}
+
+
+
+
+
+
+body{
+  margin: 0;
+ 
+  font-family:'Roboto',sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
+  
+
+
+
+background: var(--white);
+}
+
+
+
+
+
+*,
+*::before 
+*::after{box-sizing:border-box}
+
+/*Портфоліо*/
+
+li{
+  list-style-type: none;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+
+.portfolio_hav_about{
+color: var(--gray);
+}
+
+button{
+  border: none;
+}
+
+.about_nav{
+  align-items: center;
+}
+
+h6{
+  visibility: hidden;
+
+}
+
+.logo_link{
+
+
+font-size:calc(1.19) ;
+line-height: calc(1.19);
+;
+color: var(--black);
+}
+
+.logo-header{
+
+
+font-size: calc(1.19);
+line-height: calc(1.19);
+
+color: var(--blue);
+}
+
+.about_studi{
+
+
+font-size: calc(1.14);
+line-height: calc(1.14);
+
+
+color: var(--black);
+}
+
+.about_portfolio{
+
+
+font-size: calc(1.14);
+line-height: calc(1.14);
+
+color: var(--black);
+}
+
+.about_contact{
+
+ 
+  font-size: calc(1.14);
+  line-height: calc(1.14);
+  
+  color: var(--black);
+}
+
+.about_mail{
+
+
+font-size: calc(1.14);
+line-height: calc(1.14);
+
+
+color: var(--gray);
+}
+
+.about_tell{
+
+
+  font-size: calc(1.14);
+  line-height: calc(1.14);
+ 
+  
+  color: var(--gray);
+}
+
+.about_all{
+  display: flex;
+  font-family: inherit;
+
+
+font-size: calc(1.6);
+line-height: calc(1.6);
+text-align: center;
+
+cursor: pointer;
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+.about_web_site{
+  display: flex;
+  font-family: inherit;
+
+
+font-size: calc(1.6);
+line-height: calc(1.6);
+text-align: center;
+
+cursor: pointer;
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+.about_applications{
+  display: flex;
+  font-family: inherit;
+
+
+font-size: calc(1.6);
+line-height: calc(1.6);
+text-align: center;
+
+cursor: pointer;
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+.about_design{
+  display: flex;
+  font-family: inherit;
+
+
+font-size: calc(1.6);
+line-height: calc(1.6);
+text-align: center;
+
+cursor: pointer;
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+.about_marketing{
+  display: flex;
+  font-family: inherit;
+
+font-size: calc(1.6);
+line-height: calc(1.6);
+text-align: center;
+
+cursor: pointer;
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+
+.footer_container{
+position: absolute;
+width: 1600px;
+height: 252px;
+
+
+
+background:var(--hard-gray);
+}
+
+.footer_studio{
+
+
+font-size: calc(1.19);
+line-height: calc(1.19);
+
+color: var(--white);
+}
+
+.logo_footer{
+
+ 
+  font-size: calc(1.19);
+  line-height: calc(1.19);
+  
+  color: var(--blue);
+}
+
+.info_adres{
+
+
+font-size: calc(1.14);
+line-height: calc(1.14);
+
+color: var(--white);
+}
+
+.main_about{
+
+
+font-size: calc(1.14);
+line-height: calc(1.14);
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.tell_about{
+
+
+font-size: calc(1.14);
+line-height: calc(1.14);
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+
+/*index*/
+
+.bg{
+  background: var(--hard-gray);
+}
+
+.index_bisnes{
+
+
+font-size: calc(1.36);
+line-height: calc(1.36);
+text-align: center;
+
+text-transform: uppercase;
+color: var(--white);
+}
+
+.index_btn{
+
+  
+  font-size: calc(1.8);
+  line-height: calc(1.8);
+  display: flex;
+  align-items: center;
+  text-align: center;
+ 
+  color: var(--white);
+
+  cursor: pointer;
+
+  
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+  
+  background: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+
+
+.index_hav_one{
+
+  width: 400px;
+  height: 42px;
+  
+
+
+
+
+font-size: calc(2.6);
+line-height: calc(2.6);
+text-align: center;
+
+color: var(--black);
+}
+
+.index_hav_two{
+
+width: 366px;
+height: 42px;
+
+
+
+font-size: calc(2.6);
+line-height: calc(2.6);
+text-align: center;
+
+
+color: var(--black);
+}
+
+.index_details{
+
+
+font-size: calc(1.14);
+line-height: calc(1.14);
+
+text-transform: uppercase;
+color: var(--black);
+text-transform: uppercase;
+}
+
+.index_description{
+
+
+font-size: calc(1.14);
+line-height: calc(1.14);
+
+
+
+
+color: var(--gray);
+}
+
+.index_name{
+
+
+font-size: calc(1.18);
+line-height: calc(1.18);
+text-align: center;
+
+color: var(--black);
+}
+
+.index_responsibilities{
+
+
+font-size: calc(1.18);
+line-height: calc(1.18);
+text-align: center;
+
+color: var(--gray);
+}
+.our_features{
+  visibility: hidden;
+}
+
+.index_team{
+  background: var(--light-gray);
+}
+
+/*Ховери*/
+
+.logo_link:hover, .logo_link:focus{
+  border-color: var(--black);
+color: var(--blue);
+
+}
+
+.logo-header:hover, .logo-header:focus{
+  border-color: var(--black);
+  color: var(--blue);
+  
+}
+
+.about_studi:hover, .about_studi:focus{
+border-color: var(--black);
+color: var(--blue);
+
+}
+
+.about_portfolio:hover, .about_portfolio:focus{
+border-color: var(--black);
+color: var(--blue);
+
+}
+
+.about_contact:hover, .about_contact:focus{
+border-color: var(--black);
+color: var(--blue);
+
+}
+
+.about_mail:hover, .about_mail:focus{
+border-color: var(--gray);
+color: var(--blue);
+
+}
+
+.about_tell:hover, .about_tell:focus {
+border-color: var(--gray);
+color: var(--blue);
+
+}
+
+.about_all:hover, .about_all:focus{
+  
+border-color: var(--black);
+background-color: var(--blue) ;
+color: var(--white);
+
+}
+.about_web_site:hover, .about_web_site:focus{
+  border-color: var(--black);
+background-color: var(--blue) ;
+color: var(--white);
+
+}
+.about_applications:hover, .about_applications:focus{
+  border-color: var(--black);
+  background-color: var(--blue) ;
+  color: var(--white);
+  
+}
+.about_design:hover, .about_design:focus{
+  border-color: var(--black);
+  background-color: var(--blue) ;
+  color: var(--white);
+  
+}
+.about_marketing:hover, .about_marketing:focus{
+  border-color: var(--black);
+  background-color: var(--blue) ;
+  color: var(--white);
+  
+}
+
+.footer_studio:hover, .footer_studio:focus{
+  border-color: var(--black);
+  color: var(--blue);
+  
+}
+
+.logo_footer:hover, .logo_footer:focus{
+  border-color: var(--black);
+  color: var(--blue);
+  
+}
+
+.info_adres:hover, .info_adres:focus{
+  border-color: var(--black);
+  color: var(--blue);
+  
+}
+
+.main_about:hover, .main_about:focus{
+  border-color: var(--black);
+  color: var(--blue);
+  
+}
+
+.tell_about:hover, .tell_about:focus{
+  border-color: var(--black);
+  color: var(--blue);
+  
+}
