@@ -339,10 +339,214 @@ color: var(--gray);
 
 
 
+/*Portfolio*/
+
+.another_button{
+  visibility: hidden;
+
+}
+
+.logo_link{
+  font-family: 'Raleway';
+  font-weight: 700;
+  letter-spacing: 0.03em;
+font-size:26px ;
+line-height: 1.19;
+;
+color: var(--black);
+}
+
+.logo-header{
+  font-family: 'Raleway';
+  font-weight: 700;
+  letter-spacing: 0.03em;
+font-size:26px ;
+line-height: 1.19;
+color: var(--blue);
+}
+
+.about_studi{
+  font-weight: 500;
+  letter-spacing: 0.02em;
+font: 14px;;
+line-height:1.14;
+
+
+color: var(--black);
+}
+
+.about_portfolio{
+  font-weight: 500;
+  letter-spacing: 0.02em;
+font: 14px;;
+line-height:1.14;
+
+color: var(--black);
+}
+
+.about_contact{
+  font-weight: 500;
+  letter-spacing: 0.02em;
+font: 14px;;
+line-height:1.14;
+  
+  color: var(--black);
+}
+
+.about_mail{
+  font-weight: 500;
+  letter-spacing: 0.02em;
+font: 14px;;
+line-height:1.14;
+
+
+color: var(--gray);
+}
+
+.about_tell{
+  font-weight: 500;
+  letter-spacing: 0.02em;
+font: 14px;;
+line-height:1.14;
+ 
+  
+  color: var(--gray);
+}
+
+.about_all{
+  display: flex;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+line-height:1.6;
+text-align: center;
+
+
+cursor: pointer;
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+.about_web_site{
+  display: flex;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+line-height:1.6;
+text-align: center;
+
+cursor: pointer;
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+.about_applications{
+  display: flex;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+line-height:1.6;
+text-align: center;
+
+cursor: pointer;
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+.about_design{
+  display: flex;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+line-height:1.6;
+text-align: center;
+
+cursor: pointer;
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+.about_marketing{
+  display: flex;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+line-height:1.6;
+text-align: center;
+
+cursor: pointer;
+color: var(--black);
+background: var(--light-gray);
+border-radius: 4px;
+}
+
+
+.footer_container{
+position: absolute;
 
 
 
 
+background:var(--hard-gray);
+}
+
+.footer_studio{
+
+  font-weight: 700;
+  letter-spacing: 0.03em;
+font-size:26px ;
+line-height: 1.19;
+
+color: var(--white);
+}
+
+.logo_footer{
+
+  font-weight: 700;
+  letter-spacing: 0.03em;
+font-size:26px ;
+line-height: 1.19;
+  
+  color: var(--blue);
+}
+
+.info_adres{
+  font-weight: 400;
+  font-size: 14px;
+line-height:1.14;
+letter-spacing: 0.03em;
+
+color: var(--white);
+}
+
+.main_about{
+  font-weight: 400;
+  font-size: 14px;
+line-height:1.14;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.tell_about{
+  font-weight: 400;
+  font-size: 14px;
+line-height:1.14;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+/*hover*/
 .about_studi:hover, .about_studi:focus{
 border-color: var(--black);
 color: var(--blue);
