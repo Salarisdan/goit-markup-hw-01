@@ -17,10 +17,9 @@ body{
   margin: 0;
  
   font-family:'Roboto',sans-serif;
-  font-size: 15px;
+  font-size: 1px;
   letter-spacing: 0.03em;
-  letter-spacing: 0.02em;
-  letter-spacing: 0.06em;
+
   
 
 
@@ -64,69 +63,76 @@ h6{
 
 .logo_link{
 
-
-font-size:calc(1.19) ;
-line-height: calc(1.19);
+ font-family: raleway;
+font-size:26px ;
+line-height:1.19;
 ;
 color: var(--black);
+letter-spacing: 0.03em;
 }
 
 .logo-header{
 
-
-font-size: calc(1.19);
-line-height: calc(1.19);
+  font-family: raleway;
+font-size: 26px;
+line-height:1.19;
 
 color: var(--blue);
+letter-spacing: 0.03em;
 }
 
 .about_studi{
 
-
-font-size: calc(1.14);
-line-height: calc(1.14);
+  font-weight: 500;
+font-size: 14px;
+line-height:1.14;
 
 
 color: var(--black);
+letter-spacing: 0.02em;
 }
 
 .about_portfolio{
 
-
-font-size: calc(1.14);
-line-height: calc(1.14);
+  font-weight: 500;
+font-size: 14px;
+line-height:1.14;
 
 color: var(--black);
+letter-spacing: 0.02em;
 }
 
 
 .about_contact{
 
- 
-  font-size: calc(1.14);
-  line-height: calc(1.14);
+  font-weight: 500;
+  font-size: 14px;
+  line-height:1.14;
   
   color: var(--black);
+  letter-spacing: 0.02em;
 }
 
 .about_mail{
 
-
-font-size: calc(1.14);
-line-height: calc(1.14);
+  font-weight: 500;
+font-size: 14px;
+line-height:1.14;
 
 
 color: var(--gray);
+letter-spacing: 0.02em;
 }
 
 .about_tell{
 
-
-  font-size: calc(1.14);
-  line-height: calc(1.14);
+  font-weight: 500;
+  font-size:14px;;
+  line-height:1.14;
  
   
   color: var(--gray);
+  letter-spacing: 0.02em;
 }
 
 
@@ -136,33 +142,30 @@ color: var(--gray);
 
 .index_bisnes{
 
-
-font-size: calc(1.36);
-line-height: calc(1.36);
+  font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
 text-align: center;
-
+letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--white);
 }
 
 .index_btn{
-
-  
-  font-size: calc(1.8);
-  line-height: calc(1.8);
+font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height:1.8;
   display: flex;
   align-items: center;
   text-align: center;
- 
+  letter-spacing: 0.06em;
   color: var(--white);
 
   cursor: pointer;
 
-  
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
+
+
   
   background: var(--blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -172,30 +175,30 @@ color: var(--white);
 
 
 .index_hav_one{
-
-  width: 400px;
-  height: 42px;
+  font-weight: 700;
   
+  letter-spacing: 0.03em;
 
 
 
 
-font-size: calc(2.6);
-line-height: calc(2.6);
+
+font-size: 36px;
+line-height:2.6;
 text-align: center;
 
 color: var(--black);
 }
 
 .index_hav_two{
-
-width: 366px;
-height: 42px;
+  font-weight: 700;
 
 
 
-font-size: calc(2.6);
-line-height: calc(2.6);
+letter-spacing: 0.03em;
+
+font-size: 36px;
+line-height:2.6;
 text-align: center;
 
 
@@ -204,9 +207,10 @@ color: var(--black);
 
 .index_details{
 
-
+  font-weight: 700;
 font-size: calc(1.14);
-line-height: calc(1.14);
+line-height:1.14;
+letter-spacing: 0.03em;
 
 text-transform: uppercase;
 color: var(--black);
@@ -215,9 +219,10 @@ text-transform: uppercase;
 
 .index_description{
 
-
-font-size: calc(1.14);
-line-height: calc(1.14);
+  font-weight: 400;
+font-size: 14px;
+line-height:1.14;
+letter-spacing: 0.03em;
 
 
 
@@ -226,26 +231,43 @@ color: var(--gray);
 }
 
 .index_name{
+  letter-spacing: 0.03em;
 
-
-font-size: calc(1.18);
-line-height: calc(1.18);
+  font-weight: 500;
+font-size: 16px;
+line-height:1.18;
 text-align: center;
 
 color: var(--black);
 }
 
 .index_responsibilities{
+  letter-spacing: 0.03em;
 
-
-font-size: calc(1.18);
-line-height: calc(1.18);
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
 text-align: center;
 
 color: var(--gray);
 }
 .our_features{
-  visibility: hidden;
+ 
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+   
+}
+
+.index_backgound_white{
+  background: var(--white);
 }
 
 .index_team{
@@ -253,54 +275,61 @@ color: var(--gray);
 
 
   .tell_about{
+    letter-spacing: 0.03em;
 
+    font-weight: 400;
 
-    font-size: calc(1.14);
-    line-height: calc(1.14);
+    font-size: 14px;
+    line-height:2;
     
     color: rgba(255, 255, 255, 0.6);
     }
 
     .main_about{
+      letter-spacing: 0.03em;
 
+      font-weight: 400;
 
-      font-size: calc(1.14);
-      line-height: calc(1.14);
+      font-size: 14px;
+      line-height: 2;
       
       color: rgba(255, 255, 255, 0.6);
       }
 
       .info_adres{
+        letter-spacing: 0.03em;
 
+        font-weight: 400;
 
-        font-size: calc(1.14);
-        line-height: calc(1.14);
+        font-size: 14px;
+        line-height:2;
         
         color: var(--white);
         }
 
         .logo_footer{
+          letter-spacing: 0.03em;
 
- 
-          font-size: calc(1.19);
-          line-height: calc(1.19);
+          font-weight: 700;
+          font-size: 26px;
+          line-height:1.19;
           
           color: var(--blue);
         }
 
         .footer_studio{
+          letter-spacing: 0.03em;
 
-
-          font-size: calc(1.19);
-          line-height: calc(1.19);
+          font-weight: 700;
+          font-size: 26px;
+          line-height:1.19;
           
           color: var(--white);
           }
 
           .footer_container{
             position: absolute;
-            width: 1600px;
-            height: 252px;
+           
             
             
             
@@ -311,17 +340,7 @@ color: var(--gray);
 
 
 
-.logo_link:hover, .logo_link:focus{
-  border-color: var(--black);
-color: var(--blue);
 
-}
-
-.logo-header:hover, .logo-header:focus{
-  border-color: var(--black);
-  color: var(--blue);
-  
-}
 
 .about_studi:hover, .about_studi:focus{
 border-color: var(--black);
@@ -385,17 +404,9 @@ color: var(--white);
   
 }
 
-.footer_studio:hover, .footer_studio:focus{
-  border-color: var(--black);
-  color: var(--blue);
-  
-}
 
-.logo_footer:hover, .logo_footer:focus{
-  border-color: var(--black);
-  color: var(--blue);
   
-}
+
 
 .info_adres:hover, .info_adres:focus{
   border-color: var(--black);
