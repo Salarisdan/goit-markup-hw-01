@@ -309,7 +309,7 @@ color: var(--gray);
 
         .logo_footer{
           letter-spacing: 0.03em;
-
+          font-family: 'Raleway';
           font-weight: 700;
           font-size: 26px;
           line-height:1.19;
@@ -319,7 +319,7 @@ color: var(--gray);
 
         .footer_studio{
           letter-spacing: 0.03em;
-          font-family: raleway;
+          font-family: 'Raleway';
           font-weight: 700;
           font-size: 26px;
           line-height:1.19;
@@ -500,7 +500,7 @@ background:var(--hard-gray);
 }
 
 .footer_studio{
-  font-family: raleway;
+  font-family: 'Raleway';
   font-weight: 700;
   letter-spacing: 0.03em;
 font-size:26px ;
@@ -510,7 +510,7 @@ color: var(--white);
 }
 
 .logo_footer{
-
+  font-family: 'Raleway';
   font-weight: 700;
   letter-spacing: 0.03em;
 font-size:26px ;
