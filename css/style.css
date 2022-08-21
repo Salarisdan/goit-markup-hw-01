@@ -308,23 +308,22 @@ color: var(--gray);
         }
 
         .logo_footer{
-          letter-spacing: 0.03em;
           font-family: 'Raleway';
           font-weight: 700;
           font-size: 26px;
           line-height:1.19;
-          
+          letter-spacing: 0.03em;
+
           color: var(--blue);
         }
 
         .footer_studio{
-          letter-spacing: 0.03em;
-          font-family: 'Raleway';
-          font-weight: 700;
-          font-size: 26px;
+          font-family: raleway;
+          font-size:26px ;
           line-height:1.19;
-          
+          ;
           color: var(--white);
+          letter-spacing: 0.03em;
           }
 
           .footer_container{
@@ -502,21 +501,21 @@ background:var(--hard-gray);
 .footer_studio{
   font-family: 'Raleway';
   font-weight: 700;
-  letter-spacing: 0.03em;
 font-size:26px ;
 line-height: 1.19;
+letter-spacing: 0.03em;
 
 color: var(--white);
 }
 
 .logo_footer{
-  font-family: 'Raleway';
+  font-family: raleway;
   font-weight: 700;
-  letter-spacing: 0.03em;
-font-size:26px ;
-line-height: 1.19;
+  font-size: 26px;
+  line-height:1.19;
   
   color: var(--blue);
+  letter-spacing: 0.03em;
 }
 
 .info_adres{
