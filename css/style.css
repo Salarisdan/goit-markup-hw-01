@@ -20,7 +20,6 @@ body{
   font-size: 14px;
   letter-spacing: 0.03em;
 
-  
 
 
 
@@ -35,6 +34,7 @@ background: var(--white);
 *::before 
 *::after{box-sizing:border-box}
 
+/*Портфоліо*/
 
 li{
   list-style-type: none;
@@ -56,297 +56,22 @@ button{
   align-items: center;
 }
 
-h6{
-  visibility: hidden;
-
-}
-
-.logo_link{
-
- font-family: raleway;
-font-size:26px ;
-line-height:1.19;
-;
-color: var(--black);
-letter-spacing: 0.03em;
-}
-
-.logo-header{
-
-  font-family: raleway;
-font-size: 26px;
-line-height:1.19;
-
-color: var(--blue);
-letter-spacing: 0.03em;
-}
-
-.about_studi{
-
-  font-weight: 500;
-font-size: 14px;
-line-height:1.14;
-
-
-color: var(--black);
-letter-spacing: 0.02em;
-}
-
-.about_portfolio{
-
-  font-weight: 500;
-font-size: 14px;
-line-height:1.14;
-
-color: var(--black);
-letter-spacing: 0.02em;
-}
-
-
-.about_contact{
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height:1.14;
-  
-  color: var(--black);
-  letter-spacing: 0.02em;
-}
-
-.about_mail{
-
-  font-weight: 500;
-font-size: 14px;
-line-height:1.14;
-
-
-color: var(--gray);
-letter-spacing: 0.02em;
-}
-
-.about_tell{
-
-  font-weight: 500;
-  font-size:14px;;
-  line-height:1.14;
- 
-  
-  color: var(--gray);
-  letter-spacing: 0.02em;
-}
-
-
-.bg{
-  background: var(--hard-gray);
-}
-
-.index_bisnes{
-
-  font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: var(--white);
-}
-
-.index_btn{
-font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height:1.8;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--white);
-
-  cursor: pointer;
-
-
-
-  
-  background: var(--blue);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-
-
-
-.index_hav_one{
-  font-weight: 700;
-  
-  letter-spacing: 0.03em;
-
-
-
-
-
-font-size: 36px;
-line-height:2.6;
-text-align: center;
-
-color: var(--black);
-}
-
-.index_hav_two{
-  font-weight: 700;
-
-
-
-letter-spacing: 0.03em;
-
-font-size: 36px;
-line-height:2.6;
-text-align: center;
-
-
-color: var(--black);
-}
-
-.index_details{
-
-  font-weight: 700;
-font-size: 14;
-line-height:1.14;
-letter-spacing: 0.03em;
-
-text-transform: uppercase;
-color: var(--black);
-
-}
-
-.index_description{
-
-  font-weight: 400;
-font-size: 14px;
-line-height:1.14;
-letter-spacing: 0.03em;
-
-
-
-
-color: var(--gray);
-}
-
-.index_name{
-  letter-spacing: 0.03em;
-
-  font-weight: 500;
-font-size: 16px;
-line-height:1.18;
-text-align: center;
-
-color: var(--black);
-}
-
-.index_responsibilities{
-  letter-spacing: 0.03em;
-
-  font-weight: 400;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-
-color: var(--gray);
-}
 .visually-hidden{
- 
   position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
- 
-}
-
-.index_backgound_white{
-  background: var(--white);
-}
-
-.index_team{
-  background: var(--light-gray);}
-
-
-  .tell_about{
-    letter-spacing: 0.03em;
-
-    font-weight: 400;
-
-    font-size: 14px;
-    line-height:2;
-    
-    color: rgba(255, 255, 255, 0.6);
-    }
-
-    .main_about{
-      letter-spacing: 0.03em;
-
-      font-weight: 400;
-
-      font-size: 14px;
-      line-height: 2;
-      
-      color: rgba(255, 255, 255, 0.6);
-      }
-
-      .info_adres{
-        letter-spacing: 0.03em;
-
-        font-weight: 400;
-
-        font-size: 14px;
-        line-height:2;
-        
-        color: var(--white);
-        }
-
-        .logo_footer{
-          font-family: 'Raleway';
-          font-weight: 700;
-          font-size: 26px;
-          line-height:1.19;
-          letter-spacing: 0.03em;
-
-          color: var(--blue);
-        }
-
-        .footer_studio{
-          font-family: raleway;
-          font-size:26px ;
-          line-height:1.19;
-          ;
-          color: var(--white);
-          letter-spacing: 0.03em;
-          }
-
-          .footer_container{
-            position: absolute;
-            width: 1600px;
-            height: 252px;
-            
-            
-            
-            background:var(--hard-gray);
-            }
-
-
-
-/*Portfolio*/
-
-.another_button{
-  visibility: hidden;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 
 }
 
 .logo_link{
-  font-family: 'Raleway';
+  font-family: 'Raleway',sans-serif;
   font-weight: 700;
   letter-spacing: 0.03em;
 font-size:26px ;
@@ -356,7 +81,7 @@ color: var(--black);
 }
 
 .logo-header{
-  font-family: 'Raleway';
+  font-family: 'Raleway',sans-serif;
   font-weight: 700;
   letter-spacing: 0.03em;
 font-size:26px ;
@@ -489,33 +214,26 @@ border-radius: 4px;
 }
 
 
-.footer_container{
-position: absolute;
 
-
-
-
-background:var(--hard-gray);
-}
 
 .footer_studio{
-  font-family: 'Raleway';
+  font-family: 'Raleway',sans-serif;
   font-weight: 700;
+  
 font-size:26px ;
 line-height: 1.19;
 letter-spacing: 0.03em;
-
 color: var(--white);
 }
 
 .logo_footer{
-  font-family: raleway;
+  font-family: 'Raleway',sans-serif;
   font-weight: 700;
-  font-size: 26px;
-  line-height:1.19;
   
+font-size:26px ;
+line-height: 1.19;
+letter-spacing: 0.03em;
   color: var(--blue);
-  letter-spacing: 0.03em;
 }
 
 .info_adres{
@@ -545,7 +263,313 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
-/*hover*/
+
+
+
+/*index*/
+
+.logo_link{
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+font-size:26px ;
+line-height: 1.19;
+;
+color: var(--black);
+ }
+ 
+ .logo-header{
+ 
+   font-family: 'Raleway',sans-serif;
+   font-weight: 700;
+ font-size: 26px;
+ line-height:1.19;
+ 
+ color: var(--blue);
+ letter-spacing: 0.03em;
+ }
+ 
+ .about_studi{
+ 
+   font-weight: 500;
+ font-size: 14px;
+ line-height:1.14;
+ 
+ 
+ color: var(--black);
+ letter-spacing: 0.02em;
+ }
+ 
+ .about_portfolio{
+ 
+   font-weight: 500;
+ font-size: 14px;
+ line-height:1.14;
+ 
+ color: var(--black);
+ letter-spacing: 0.02em;
+ }
+ 
+ 
+ .about_contact{
+ 
+   font-weight: 500;
+   font-size: 14px;
+   line-height:1.14;
+   
+   color: var(--black);
+   letter-spacing: 0.02em;
+ }
+ 
+ .about_mail{
+ 
+   font-weight: 500;
+ font-size: 14px;
+ line-height:1.14;
+ 
+ 
+ color: var(--gray);
+ letter-spacing: 0.02em;
+ }
+ 
+ .about_tell{
+ 
+   font-weight: 500;
+   font-size:14px;;
+   line-height:1.14;
+  
+   
+   color: var(--gray);
+   letter-spacing: 0.02em;
+ }
+ 
+ 
+ .bg{
+   background: var(--hard-gray);
+ }
+ 
+ .index_bisnes{
+ 
+   font-weight: 900;
+ font-size: 44px;
+ line-height: 1.36;
+ text-align: center;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
+ color: var(--white);
+ }
+ 
+ .index_btn{
+ font-family: inherit;
+   font-weight: 700;
+   font-size: 16px;
+   line-height:1.8;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+   color: var(--white);
+ 
+   cursor: pointer;
+ 
+ 
+ 
+   
+   background: var(--blue);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+ }
+ 
+ 
+ 
+ .index_hav_one{
+   font-weight: 700;
+   
+   letter-spacing: 0.03em;
+ 
+ 
+ 
+ 
+ 
+ font-size: 36px;
+ line-height:2.6;
+ text-align: center;
+ 
+ color: var(--black);
+ }
+ 
+ .index_hav_two{
+   font-weight: 700;
+ 
+ 
+ 
+ letter-spacing: 0.03em;
+ 
+ font-size: 36px;
+ line-height:2.6;
+ text-align: center;
+ 
+ 
+ color: var(--black);
+ }
+ 
+ .index_details{
+ 
+   font-weight: 700;
+ font-size: 14px;
+ line-height:1.14;
+ letter-spacing: 0.03em;
+ 
+ text-transform: uppercase;
+ color: var(--black);
+ 
+ }
+ 
+ .index_description{
+ 
+   font-weight: 400;
+ font-size: 14px;
+ line-height:1.14;
+ letter-spacing: 0.03em;
+ 
+ 
+ 
+ 
+ color: var(--gray);
+ }
+ 
+ .index_name{
+   letter-spacing: 0.03em;
+ 
+   font-weight: 500;
+ font-size: 16px;
+ line-height:1.18;
+ text-align: center;
+ 
+ color: var(--black);
+ }
+ 
+ .index_responsibilities{
+   letter-spacing: 0.03em;
+ 
+   font-weight: 400;
+ font-size: 16px;
+ line-height: 1.18;
+ text-align: center;
+ 
+ color: var(--gray);
+ }
+ .visually-hidden{
+  
+   position: absolute;
+     white-space: nowrap;
+     width: 1px;
+     height: 1px;
+     overflow: hidden;
+     border: 0;
+     padding: 0;
+     clip: rect(0 0 0 0);
+     clip-path: inset(50%);
+     margin: -1px;
+  
+ }
+ 
+ .index_backgound_white{
+   background: var(--white);
+ }
+ 
+ .index_team{
+   background: var(--light-gray);}
+ 
+ 
+   .tell_about{
+     letter-spacing: 0.03em;
+ 
+     font-weight: 400;
+ 
+     font-size: 14px;
+     line-height:2;
+     
+     color: rgba(255, 255, 255, 0.6);
+     }
+ 
+     .main_about{
+       letter-spacing: 0.03em;
+ 
+       font-weight: 400;
+ 
+       font-size: 14px;
+       line-height: 2;
+       
+       color: rgba(255, 255, 255, 0.6);
+       }
+ 
+       .info_adres{
+         letter-spacing: 0.03em;
+ 
+         font-weight: 400;
+ 
+         font-size: 14px;
+         line-height:2;
+         
+         color: var(--white);
+         }
+ 
+         .logo_footer{
+           
+           font-family: 'Raleway',sans-serif;
+           font-weight: 700;
+           font-size: 26px;
+           line-height:1.19;
+           letter-spacing: 0.03em;
+           color: var(--blue);
+         }
+ 
+         .footer_studio{
+           
+           font-family: 'Raleway',sans-serif;
+           font-weight: 700;
+           font-size: 26px;
+           line-height:1.19;
+           letter-spacing: 0.03em;
+           color: var(--white);
+           }
+ 
+           .footer_container{
+
+             
+             
+             
+             background:var(--hard-gray);
+             }
+
+             .visually-hidden{
+ 
+              position: absolute;
+                white-space: nowrap;
+                width: 1px;
+                height: 1px;
+                overflow: hidden;
+                border: 0;
+                padding: 0;
+                clip: rect(0 0 0 0);
+                clip-path: inset(50%);
+                margin: -1px;}
+ 
+                .index_backgound_white{
+                  background: var(--white);
+                }
+/*Ховери*/
+
+  
+
+.index_btn:hover, .index_btn:focus{
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+
+
 .about_studi:hover, .about_studi:focus{
 border-color: var(--black);
 color: var(--blue);
@@ -609,7 +633,6 @@ color: var(--white);
 }
 
 
-  
 
 
 .info_adres:hover, .info_adres:focus{
@@ -629,3 +652,4 @@ color: var(--white);
   color: var(--blue);
   
 }
+
